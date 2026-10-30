@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>ഇമേജ് മാറ്റം വരുത്തുക</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+ <h1>ചിത്രം മാറ്റം വരുത്തുക</h1>
+ 
+ <div class="upload-section">
+ <h2>പ്രധാന ചിത്രം തിരഞ്ഞെടുക്കുക</h2>
+ <input type="file" id="inputImage" accept="image/*">
+ <div id="previewImage" class="preview-box">
+ <p>പടം ഇവിടെ കാണാം</p>
+ </div>
+ </div>
+
+ <div class="change-section">
+ <h2>പുതിയ ഇമേജ് തിരഞ്ഞെടുക്കുക</h2>
+ <input type="file" id="inputNewImage" accept="image/*">
+ <div id="previewNewImage" class="preview-box">
+ <p>പുതിയ ഇമേജ് ഇവിടെ കാണാം</p>
+ </div>
+ </div>
+
+ <button id="processBtn" class="btn">ചിത്രം പ്രോസസ്സ് ചെയ്യുക</button>
+
+ <div id="resultArea" class="result-area">
+ <h2>ഫലങ്ങൾ</h2>
+ <img id="finalImage" src="" alt="ഫലം">
+ </div>
+ </div>
+
+ <script src="script.js"></script>
+</body>
+   </html>
